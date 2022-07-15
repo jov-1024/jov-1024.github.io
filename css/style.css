@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+@keyframes slide_right {
+    0% {margin-left: -25rem}
+    100% {margin-left: 0rem}
+}
+
+@keyframes slide_left {
+    0% {margin-right: -25rem}
+    100% {margin-right: 0rem}
+}
+
+#main {
+    color: #d8dee9;
+    font-family: "Ubuntu";
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    animation-name: slide_left;
+    animation-duration: 1s;
+}
+
+body {
+    background-color: #2e3440;
+    text-align: center;
+}
