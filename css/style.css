@@ -1,24 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Ubuntu&display=swap');
 
-@keyframes slide_right {
-    0% {margin-left: -25rem}
-    100% {margin-left: 0rem}
+#header {
+    padding-bottom: 2rem;
+    margin-top: 0.2rem;
+    background-color: rgb(44, 44, 44);
+    border-radius: 16px;
+    text-align: justify;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
 }
 
-@keyframes slide_left {
-    0% {margin-right: -25rem}
-    100% {margin-right: 0rem}
+img {
+    float: inherit;
 }
 
-#main {
-    color: #d8dee9;
-    font-family: "Ubuntu";
-    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
-    animation-name: slide_left;
-    animation-duration: 1s;
+a {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
 }
 
 body {
-    background-color: #2e3440;
     text-align: center;
+    font-family: Noto Sans;
+    background-color: #181818;
+    border-radius: 16px;
+    font-size: 2rem;
+    margin-top: 0px;
+}
+
+#main {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    font-size: 4rem;
+}
+
+#main-text {
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
